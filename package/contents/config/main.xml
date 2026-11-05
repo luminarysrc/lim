@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="refreshMinutes" type="Int">
+            <default>5</default>
+        </entry>
+        <entry name="showClaude" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showCodex" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showAntigravity" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="ringSize" type="Int">
+            <default>100</default>
+        </entry>
+        <entry name="lineThickness" type="Int">
+            <default>13</default>
+        </entry>
+        <entry name="colorClaude" type="String">
+            <default>#d97757</default>
+        </entry>
+        <entry name="colorCodex" type="String">
+            <default></default>
+        </entry>
+        <entry name="colorAntigravity" type="String">
+            <default>#4285f4</default>
+        </entry>
+        <entry name="sectionColors" type="String">
+            <default>{}</default>
+        </entry>
+        <entry name="hiddenSections" type="StringList">
+            <default></default>
+        </entry>
+        <entry name="knownSections" type="String">
+            <default>{}</default>
+        </entry>
+    </group>
+</kcfg>

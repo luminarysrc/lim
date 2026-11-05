@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPlugin": {
+        "Id": "com.github.ailimits",
+        "Name": "AI Limits",
+        "Description": "Usage limits of Claude Code, Codex and Antigravity as rings in your system tray",
+        "Icon": "utilities-system-monitor",
+        "Category": "System Information",
+        "License": "MIT",
+        "Version": "1.0.0",
+        "EnabledByDefault": true,
+        "NoDisplay": true
+    },
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "SystemServices"
+}
